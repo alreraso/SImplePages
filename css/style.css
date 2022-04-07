@@ -1,0 +1,11 @@
+.dos {
+    width: 300px;
+    height: 400px;
+    align-content: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}

@@ -4,24 +4,34 @@
     height: 400px;
     align-content: center;
 }
+/* estilo de body general */
+body{
+    background-color: #dfdfc3;
+}
 /* centrado de contenido */
 .div{
     padding-right: 250px;
     padding-left: 250px;
 }
+/* estilo de textos */
+.text{
+    color: #2d0625;
+}
+/* navegacion general botones y colores */
 nav a {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #6a396e;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
+/* al pasar por el nav se cambia de color a rosado */
 nav a:hover {
-    background-color: #111;
+    background-color: #f662d2;
   }
 /* se ccentra la figura reinado y la foto panoramica */
 .reinado {
@@ -77,7 +87,7 @@ nav a:hover {
 }
 /* estilo de navegado interno */
 .rutainterna{
-    background-color: aqua;
+    background-color: #a46ca9;
 }
 /* estilo de banner  municipal */
 .bannermunicipal{
@@ -89,8 +99,23 @@ nav a:hover {
     align-content: center;
     border: 1px solid #111;
 }
-
+/* tag info */
 .info{
     text-align: center;
     align-content: center;
+}
+/* estilo a info a */
+.info a {
+    background-color: #a46ca9;
+    border: 1px solid #a46ca9;
+    color: black;
+    padding: 2px 2px 2px 2px;
+}
+/* para el footer de la pagina */
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #bdef52;
+    color: black;
 }

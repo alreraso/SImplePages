@@ -9,15 +9,167 @@
 </head>
 
 <body>
-    <h1><a>Paraíso folclórico del Huila</a></h1><!-- titular-->
-    <nav><!-- menu general-->
-        <a href="index.html" target="_self"><button>Inicio</button></a>
-        <a href="paginauno.html" target="_self"><button>Ubicación</button></a>
-        <a href="paginados.html" target="_self"><button>Personas</button></a>
-        <a href="paginatres.html" target="_self"><button>Actividades y Fiestas</button></a>
-        <a href="paginacuatro.html" target="_self"><button>Historia</button></a> 
-        <a href="paginacinco.html" target="_self"><button>Recursos</button></a> 
-    </nav>
-    <img src="imagenes/etiquetas.jpg" width="720px" heigth="480px" alt="muestra de etiquetas html"/>
+    <div class="div">
+        <header>
+            <h1><a>Paraíso folclórico del Huila</a></h1><!-- titular-->
+            <nav><!-- menu general-->
+                <a href="index.html" target="_self">Inicio</a>
+                <a href="paginauno.html" target="_self">Ubicación</a>
+                <a href="paginados.html" target="_self">Personas</a>
+                <a href="paginatres.html" target="_self">Actividades y Fiestas</a>
+                <a href="paginacuatro.html" target="_self">Historia</a> 
+                <a href="paginacinco.html" target="_self">Recursos</a> 
+            </nav>
+            <br>
+            <br>
+        </header>
+
+        <section>
+            <img  class="bannerlogo" src="imagenes/laplatalogo.jpg" alt="Centro poblado">
+            <div class="navinterna">
+                <nav>
+                    <a href="#insignias">Escudos y banderas</a>
+                    <a href="#himno"> Himno del municipio</a>
+                    <a href="#educacion">Colegiaturas y Educación</a>
+                    <a href="#turismo">Turismo</a>
+                </nav>
+            </div>
+            <br>
+            <img class="bannermunicipal" src="imagenes/travelcultural.jpg" alt="banner municipal"/>
+            <!-- inicion de division de contenido de insginias -->
+            <div>
+                <div class="rutainterna" id="insignias">
+                    <h2>Insignias</h2>
+                </div>
+                <p class="historia">Las principales insignias del municipio son su escudo y su bandera respectivamente.</p>
+                <!-- generacion de bloque de figuras -->
+                <div> 
+                    <div class="inline-block">
+                        <img class="insignias" src ="imagenes/escudo.svg" alt="Escudo la plata">
+                    </div>
+                    <div class="inline-block">
+                        <img class="insignias" src ="imagenes/bandera.svg" alt="Bandera la plata">
+                    </div> 
+                </div>
+                <!-- generacion de bloque de tags de figuras -->
+                <div >
+                    <div class="inline-block">
+                        <b>Figura 12 Escudo</b>   
+                    </div>
+                    <div class="inline-block">
+                        <b>Figura 11 Bandera</b>
+                    </div>  
+                </div>
+            </div>
+            <!-- inicion de division de contenido de himno -->
+            <div>
+                <div class="rutainterna"  id="himno">
+                    <h2>Himno</h2>
+                </div>
+                <!-- inicio de bloques de himno municipal -->
+                <div >
+                    <p>El himno del municipio de La Plata es llamado Noches Plateñas, contiene solo 3 estrofas hace alusión a diferentes metáforas que muestran diferentes aspectos tanto demográficos
+                        así como aspectos de tradición y de cultura plateña.
+                    </p>
+                    <h2>Noches Plateñas</h2>
+                    <div class="inline-block historia">
+                        <p>De perfumes y luceros
+                            se va vistiendo la noche
+                            mientras danzan con vaivenes
+                            la cimeras y las flores
+                            Con rumores corre el río
+                            se adormecieron las aves
+                            van floreciendo los lirios
+                            los rosos y naranjales (bis).</p>   
+                    </div>
+                    <div class="inline-block historia ">
+                        <p>Siempre voy recordando noches plateñas
+                            y la gran acogida de la meseta
+                            su señorío huilense doña Ana Julia
+                            es el Tolima grande tradicional
+                            El eco de la risas y las canciones
+                            se vierten en murmullo desde la isla
+                            imagen vigilante cual centinela
+                            se levanta imponente San Sebastián</p>
+                    </div> 
+                    <div class="inline-block historia">
+                        <p>Cruza el aire en la noche
+                            Fresco me azota la cara
+                            son las brisas que vienen del Coconuco
+                            o son brisas que vienen del Puracé
+                            Que envuelven tradiciones allá en el Cauca
+                            bellas Noches Plateñas no olvidaré.
+                            Autor: Jorge Villamil</p>
+                    </div> 
+                </div>
+            </div>
+            <!-- Division de contenido de educacion -->
+            <div>
+                <div  class="rutainterna" id="educacion">
+                    <h2>Educación</h2>
+                </div>
+                <p>El municipio cuenta con la siguiente lista de colegios, algunos de ellos son colegios veredales dado que el minicipio cuenta con veredas y centros poblados considerablemente
+                    separados.
+                </p>
+                <ul>
+                    <li>Colegio Evita Rosso</li>
+                    <li>Liceo Moderno Plateño</li>
+                    <li>Colegio Mundo Creativo</li>
+                    <li>Institución Educativa Gallego</li>
+                    <li>Institución Educativa Marillac</li>
+                    <li>Instituto José Celestino Mutis</li>
+                    <li>Institución Educativa El Carmelo</li>
+                    <li>Colegio Empresarial de los Andes</li>
+                    <li>Institución Educativa Monserrate</li>
+                    <li>Institución Educativa Segovianas</li>
+                    <li>Institución Educativa Santa Lucía</li>
+                    <li>Institución Educativa Villalosada</li>
+                    <li>Institución Educativa Las Acacias</li>
+                    <li>Institución Educativa San Vicente</li>
+                    <li>Institución educativa Cooperativo</li>
+                    <li>Colegio Infantil Años Maravillosos</li>
+                    <li>Institución Educativa San Sebastián</li>
+                    <li>Institución Educativa Cansarrocines</li>
+                    <li>Institución Educativa Técnico Agrícola</li>
+                    <li>Institución Educativa Campestre San José</li>
+                    <li>Institución Educativa Villa De Los Andes</li>
+                    <li>Institución educativa Policarpa Salavarrieta</li>
+                    <li>Institución Educativa Misael Pastrana Borrero</li>
+                    <li>nstitución Educativa Diego De Ospina y Maldonado</li>
+                    <li>Institución Educativa Luis Carlos Trujillo Polanco</li>
+                </ul>
+                <p>El municipio cuenta con las siguientes instituciones de educación superior</p>
+                <ul>
+                    
+                    <li>Universidad Surcolombiana</li>
+                    <li>Universidad Católica de Colombia</li>
+                    <li>Escuela Superior de Administración Pública</li>
+                    <li>Corporación Técnica del Petróleo "CORPETROL"</li>
+                    <li>Universidad del Tolima (distancia presencial)</li>
+                    <li>UNAD Universidad Nacional Abierta y a Distancia</li>
+                    <li>Servicio Nacional de Aprendizaje SENA, Centro de Desarrollo Agroempresarial y Turístico del Huila CDATH</li>
+                </ul>
+            </div>
+            <!-- division de contenido turismo -->
+            <div>
+                <div class="rutainterna"  id="turismo">
+                    <h2>Turismo</h2>
+                </div>
+                <p>El municipio tiene bastantes sitios donde se puede hacer turismo entre ellos destacan:
+                </p>
+                <ol>
+                    <li>Termales de San Sebastián: Ubicados a dos kilómetros saliendo por el sur del municipio</li>
+                    <li>Cascada La azufrada</li>
+                    <li>Cascada La Candelaria </li>
+                    <li>Reserva privada Meremberg: la ortografía original alemana es posiblemente Merenberg, nombre quizás dado por la localidad homónima en el estado federado Hesse en Alemania. Esta región es la mayor fuente hídrica del municipio, además existen bosques naturales de cedro, roble, yarumo, iguá rosado, encenillo, candelo y numerosas lagunas y pantanos.</li>
+                </ol>
+            </div>
+            <div class="info">
+                <button><a href="http://www.laplata-huila.gov.co/" target="_blank">Para Mayor información</a></button>
+            </div>
+        </section>
+        
+
+    </div>
 </body>
 </html>

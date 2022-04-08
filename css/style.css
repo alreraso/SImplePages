@@ -4,10 +4,39 @@
     height: 400px;
     align-content: center;
 }
+/* centrado de contenido */
+.div{
+    padding-right: 250px;
+    padding-left: 250px;
+}
+nav a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #111;
+  }
+/* se ccentra la figura reinado y la foto panoramica */
+.reinado {
+    text-align: center;
+}
+/* se mueve el mapa de la plata en ubicacion */
+.ubicacion {
+    text-align: center;
+}
 /* inline se utiliza para generar un bloque de imagenes y un bloque de texto */
 .inline-block {
     display: inline-block;
     vertical-align: middle;
+    padding-right: 10px;
+    padding-left: 10px;
     width: 30%;
 }
 /* me permite justificar todos los textos al tiempo */
@@ -30,5 +59,38 @@
 .surtifruver {
     width: 700px;
     height: 450px;
+    align-content: center;
+}
+/* se grega estilo al contenido */
+.contenido {
+    padding-left: 40px;
+}
+/* navegacion de pagina */
+.navinterna {
+    padding-top: 40px;
+    padding-left: 445px;
+}
+/* se ingresa estilo para la imagen de inicio */
+.bannerlogo {
+    width: 1100px;
+    height: 400px;
+}
+/* estilo de navegado interno */
+.rutainterna{
+    background-color: aqua;
+}
+/* estilo de banner  municipal */
+.bannermunicipal{
+    width: 1100px;
+    height: 400px;
+}
+/* estilo de insginia con borde */
+.insignias{
+    align-content: center;
+    border: 1px solid #111;
+}
+
+.info{
+    text-align: center;
     align-content: center;
 }

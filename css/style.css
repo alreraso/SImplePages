@@ -1,121 +1,513 @@
-/* dos se utiliza para una imagen de la parroquia */
-.dos {
-    width: 300px;
-    height: 400px;
-    align-content: center;
+/* estilizado para pantallaz mayores a 1200 minimo */
+@media only screen and (min-width:1200px){
+    /* dos se utiliza para una imagen de la parroquia */
+    .dos {
+        width: 300px;
+        height: 400px;
+        align-content: center;
+    }
+    /* estilo de body general */
+    body{
+        background-color: #dfdfc3;
+    }
+    /* centrado de contenido */
+    .conteindex{
+        padding-right: 18%;
+        padding-left: 18%;
+    }
+    /* estilo de textos */
+    .text{
+        color: #2d0625;
+    }
+    /* navegacion general botones y colores */
+    nav a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6a396e;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    /* al pasar por el nav se cambia de color a rosado */
+    nav a:hover {
+        background-color: #f662d2;
+    }
+    /* se ccentra la figura reinado y la foto panoramica */
+    .reinado {
+        text-align: center;
+    }
+    /* se mueve el mapa de la plata en ubicacion */
+    .ubicacion {
+        text-align: center;
+    }
+    /* inline se utiliza para generar un bloque de imagenes y un bloque de texto */
+    .inline-block {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 30%;
+    }
+    /* me permite justificar todos los textos al tiempo */
+    .historia {
+        text-align: justify;
+    }
+    /* me dfine el tamaño de la figura mapa */
+    .mapa {
+        width: 300px;
+        height: 300px;
+        align-content: center;
+    }
+    /* me define el tamaño de la foto panoramica del municipio */
+    .panoramica {
+        width: 100%;
+        height: 350px;
+        align-content: center;
+    }
+    /* me define el tamaño dela figura del personaje de surtifruver */
+    .surtifruver {
+        width: 700px;
+        height: 450px;
+        align-content: center;
+    }
+    /* se grega estilo al contenido */
+    .contenido {
+        padding-left: 40px;
+    }
+    /* navegacion de pagina */
+    .navinterna {
+        padding-top: 40px;
+        padding-left: 43%;
+    }
+    /* se ingresa estilo para la imagen de inicio */
+    .bannerlogo {
+        width: 100%;
+        height: 400px;
+    }
+    /* estilo de navegado interno */
+    .rutainterna{
+        background-color: #a46ca9;
+    }
+    /* estilo de banner  municipal */
+    .bannermunicipal{
+        width: 100%;
+        height: 400px;
+    }
+    /* estilo de insginia con borde */
+    .insignias{
+        align-content: center;
+        border: 1px solid #111;
+    }
+    /* tag info */
+    .info{
+        text-align: center;
+        align-content: center;
+    }
+    /* estilo a info a */
+    .info a {
+        background-color: #a46ca9;
+        border: 1px solid #a46ca9;
+        color: black;
+        padding: 2px 2px 2px 2px;
+    }
+    /* para el footer de la pagina */
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: #bdef52;
+        color: black;
+    } 
 }
-/* estilo de body general */
-body{
-    background-color: #dfdfc3;
+
+/* para tamaños no entre 800 y 1200 px*/
+@media only screen and (min-width:810px) and (max-width:1200px){
+    .dos {
+        width: 300px;
+        height: 400px;
+        align-content: center;
+    }
+    /* estilo de body general */
+    body{
+        background-color: #dfdfc3;
+    }
+    /* centrado de contenido */
+    .conteindex{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    /* estilo de textos */
+    .text{
+        color: #2d0625;
+    }
+    /* navegacion general botones y colores */
+    nav a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6a396e;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    /* al pasar por el nav se cambia de color a rosado */
+    nav a:hover {
+        background-color: #f662d2;
+    }
+    /* se ccentra la figura reinado y la foto panoramica */
+    .reinado {
+        width: 100%;
+        height: 500px;
+    }
+    /* se mueve el mapa de la plata en ubicacion */
+    .ubicacion {
+        text-align: center;
+    }
+    /* inline se utiliza para generar un bloque de imagenes y un bloque de texto */
+    .inline-block {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 5px;
+        padding-left: 0;
+        width: 45%;
+    }
+    /* me permite justificar todos los textos al tiempo */
+    .historia {
+        text-align: justify;
+    }
+    /* me dfine el tamaño de la figura mapa */
+    .mapa {
+        width: 300px;
+        height: 300px;
+        align-content: center;
+    }
+    /* me define el tamaño de la foto panoramica del municipio */
+    .panoramica {
+        width: 100%;
+        height: 350px;
+        align-content: center;
+    }
+    /* me define el tamaño dela figura del personaje de surtifruver */
+    .surtifruver {
+        width: 600px;
+        height: 350px;
+        padding-left: 3%;
+        align-content: center;
+    }
+    /* se grega estilo al contenido */
+    .contenido {
+        padding-left: 40px;
+    }
+    /* navegacion de pagina */
+    .navinterna {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 11%;
+    }
+    /* estilo de foto panoramica */
+    /* se ingresa estilo para la imagen de inicio */
+    .bannerlogo {
+        width: 100%;
+        height: 266px;
+    }
+    /* estilo de navegado interno */
+    .rutainterna{
+        background-color: #a46ca9;
+    }
+    /* estilo de banner  municipal */
+    .bannermunicipal{
+        width: 100%;
+        height: 266px;
+    }
+    /* banner de fotos de actividades */
+
+    /* estilo de insginia con borde */
+    .insignias{
+        align-content: center;
+        border: 1px solid #111;
+    }
+    /* tag info */
+    .info{
+        text-align: center;
+        align-content: center;
+    }
+    /* estilo a info a */
+    .info a {
+        background-color: #a46ca9;
+        border: 1px solid #a46ca9;
+        color: black;
+        padding: 2px 2px 2px 2px;
+    }
+    /* para el footer de la pagina */
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: #bdef52;
+        color: black;
+    }
 }
-/* centrado de contenido */
-.div{
-    padding-right: 250px;
-    padding-left: 250px;
+
+@media only screen and (min-width:480px) and (max-width:810px){
+    .dos {
+        width: 300px;
+        height: 400px;
+        align-content: center;
+    }
+    /* estilo de body general */
+    body{
+        background-color: #dfdfc3;
+    }
+    /* centrado de contenido */
+    .conteindex{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    /* estilo de textos */
+    .text{
+        color: #2d0625;
+    }
+    /* navegacion general botones y colores */
+    nav a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6a396e;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    /* al pasar por el nav se cambia de color a rosado */
+    nav a:hover {
+        background-color: #f662d2;
+    }
+    /* se ccentra la figura reinado y la foto panoramica */
+    .reinado {
+        width: 100%;
+        height: 500px;
+    }
+    /* se mueve el mapa de la plata en ubicacion */
+    .ubicacion {
+        text-align: center;
+    }
+    /* inline se utiliza para generar un bloque de imagenes y un bloque de texto */
+    .inline-block {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 5px;
+        padding-left: 0;
+        width: 70%;
+    }
+    /* me permite justificar todos los textos al tiempo */
+    .historia {
+        text-align: justify;
+    }
+    /* me dfine el tamaño de la figura mapa */
+    .mapa {
+        width: 200px;
+        height: 200px;
+        align-content: center;
+    }
+    /* me define el tamaño de la foto panoramica del municipio */
+    .panoramica {
+        width: 100%;
+        height: 200px;
+        align-content: center;
+    }
+    /* me define el tamaño dela figura del personaje de surtifruver */
+    .surtifruver {
+        width: 100%;
+        height: 250px;
+        padding-left: 3%;
+        align-content: center;
+    }
+    /* se grega estilo al contenido */
+    .contenido {
+        padding-left: 40px;
+    }
+    /* navegacion de pagina */
+    .navinterna {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 11%;
+    }
+    /* estilo de foto panoramica */
+    /* se ingresa estilo para la imagen de inicio */
+    .bannerlogo {
+        width: 100%;
+        height: 266px;
+    }
+    /* estilo de navegado interno */
+    .rutainterna{
+        background-color: #a46ca9;
+    }
+    /* estilo de banner  municipal */
+    .bannermunicipal{
+        width: 100%;
+        height: 266px;
+    }
+    /* banner de fotos de actividades */
+
+    /* estilo de insginia con borde */
+    .insignias{
+        align-content: center;
+        border: 1px solid #111;
+    }
+    /* tag info */
+    .info{
+        text-align: center;
+        align-content: center;
+    }
+    /* estilo a info a */
+    .info a {
+        background-color: #a46ca9;
+        border: 1px solid #a46ca9;
+        color: black;
+        padding: 2px 2px 2px 2px;
+    }
+    /* para el footer de la pagina */
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: #bdef52;
+        color: black;
+    }
 }
-/* estilo de textos */
-.text{
-    color: #2d0625;
-}
-/* navegacion general botones y colores */
-nav a {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6a396e;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-/* al pasar por el nav se cambia de color a rosado */
-nav a:hover {
-    background-color: #f662d2;
-  }
-/* se ccentra la figura reinado y la foto panoramica */
-.reinado {
-    text-align: center;
-}
-/* se mueve el mapa de la plata en ubicacion */
-.ubicacion {
-    text-align: center;
-}
-/* inline se utiliza para generar un bloque de imagenes y un bloque de texto */
-.inline-block {
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 30%;
-}
-/* me permite justificar todos los textos al tiempo */
-.historia {
-    text-align: justify;
-}
-/* me dfine el tamaño de la figura mapa */
-.mapa {
-    width: 300px;
-    height: 300px;
-    align-content: center;
-}
-/* me define el tamaño de la foto panoramica del municipio */
-.panoramica {
-    width: 1100px;
-    height: 350px;
-    align-content: center;
-}
-/* me define el tamaño dela figura del personaje de surtifruver */
-.surtifruver {
-    width: 700px;
-    height: 450px;
-    align-content: center;
-}
-/* se grega estilo al contenido */
-.contenido {
-    padding-left: 40px;
-}
-/* navegacion de pagina */
-.navinterna {
-    padding-top: 40px;
-    padding-left: 445px;
-}
-/* se ingresa estilo para la imagen de inicio */
-.bannerlogo {
-    width: 1100px;
-    height: 400px;
-}
-/* estilo de navegado interno */
-.rutainterna{
-    background-color: #a46ca9;
-}
-/* estilo de banner  municipal */
-.bannermunicipal{
-    width: 1100px;
-    height: 400px;
-}
-/* estilo de insginia con borde */
-.insignias{
-    align-content: center;
-    border: 1px solid #111;
-}
-/* tag info */
-.info{
-    text-align: center;
-    align-content: center;
-}
-/* estilo a info a */
-.info a {
-    background-color: #a46ca9;
-    border: 1px solid #a46ca9;
-    color: black;
-    padding: 2px 2px 2px 2px;
-}
-/* para el footer de la pagina */
-.footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    background-color: #bdef52;
-    color: black;
+
+
+@media only screen and (min-width:1px) and (max-width:480px){
+    .dos {
+        width: 300px;
+        height: 400px;
+        align-content: center;
+    }
+    /* estilo de body general */
+    body{
+        background-color: #dfdfc3;
+    }
+    /* centrado de contenido */
+    .conteindex{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    /* estilo de textos */
+    .text{
+        color: #2d0625;
+    }
+    /* navegacion general botones y colores */
+    nav a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6a396e;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    /* al pasar por el nav se cambia de color a rosado */
+    nav a:hover {
+        background-color: #f662d2;
+    }
+    /* se ccentra la figura reinado y la foto panoramica */
+    .reinado {
+        width: 100%;
+        height: 500px;
+    }
+    /* se mueve el mapa de la plata en ubicacion */
+    .ubicacion {
+        text-align: center;
+    }
+    /* inline se utiliza para generar un bloque de imagenes y un bloque de texto */
+    .inline-block {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 5px;
+        padding-left: 0;
+        width: 70%;
+    }
+    /* me permite justificar todos los textos al tiempo */
+    .historia {
+        text-align: justify;
+    }
+    /* me dfine el tamaño de la figura mapa */
+    .mapa {
+        width: 200px;
+        height: 200px;
+        align-content: center;
+    }
+    /* me define el tamaño de la foto panoramica del municipio */
+    .panoramica {
+        width: 100%;
+        height: 200px;
+        align-content: center;
+    }
+    /* me define el tamaño dela figura del personaje de surtifruver */
+    .surtifruver {
+        width: 100%;
+        height: 250px;
+        padding-left: 1%;
+        align-content: center;
+    }
+    /* se grega estilo al contenido */
+    .contenido {
+        padding-left: 40px;
+    }
+    /* navegacion de pagina */
+    .navinterna {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 11%;
+    }
+    /* estilo de foto panoramica */
+    /* se ingresa estilo para la imagen de inicio */
+    .bannerlogo {
+        width: 100%;
+        height: 266px;
+    }
+    /* estilo de navegado interno */
+    .rutainterna{
+        background-color: #a46ca9;
+    }
+    /* estilo de banner  municipal */
+    .bannermunicipal{
+        width: 100%;
+        height: 266px;
+    }
+    /* banner de fotos de actividades */
+
+    /* estilo de insginia con borde */
+    .insignias{
+        align-content: center;
+        border: 1px solid #111;
+    }
+    /* tag info */
+    .info{
+        text-align: center;
+        align-content: center;
+    }
+    /* estilo a info a */
+    .info a {
+        background-color: #a46ca9;
+        border: 1px solid #a46ca9;
+        color: black;
+        padding: 2px 2px 2px 2px;
+    }
+    /* para el footer de la pagina */
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: #bdef52;
+        color: black;
+    }
 }

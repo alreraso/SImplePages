@@ -1,5 +1,5 @@
 /* estilizado para pantallaz mayores a 1200 minimo */
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1230px){
     /* dos se utiliza para una imagen de la parroquia */
     .dos {
         width: 300px;
@@ -23,13 +23,13 @@
     nav a {
         list-style-type: none;
         margin: 0;
-        padding: 0;
         overflow: hidden;
         background-color: #6a396e;
         color: white;
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
+        /* font-size: 16px; */
     }
     /* al pasar por el nav se cambia de color a rosado */
     nav a:hover {
@@ -80,7 +80,7 @@
     /* navegacion de pagina */
     .navinterna {
         padding-top: 40px;
-        padding-left: 43%;
+        padding-left: 14%;
     }
     /* se ingresa estilo para la imagen de inicio */
     .bannerlogo {
@@ -124,7 +124,7 @@
 }
 
 /* para tamaños no entre 800 y 1200 px*/
-@media only screen and (min-width:810px) and (max-width:1200px){
+@media only screen and (min-width:810px) and (max-width:1230px){
     .dos {
         width: 300px;
         height: 400px;
@@ -154,6 +154,7 @@
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
+        /* font-size: 14px; */
     }
     /* al pasar por el nav se cambia de color a rosado */
     nav a:hover {
@@ -283,6 +284,7 @@
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
+        /* font-size: 12px; */
     }
     /* al pasar por el nav se cambia de color a rosado */
     nav a:hover {
@@ -382,7 +384,6 @@
     }
 }
 
-
 @media only screen and (min-width:1px) and (max-width:480px){
     .dos {
         width: 300px;
@@ -413,6 +414,7 @@
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
+        /* font-size: 10px; */
     }
     /* al pasar por el nav se cambia de color a rosado */
     nav a:hover {

@@ -6,6 +6,7 @@
     <meta lang="es">
     <title>La plata, Huila</title>
     <link rel="icon" href="imagenes/village.png">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css"><!-- se agregan stilos css -->
 </head>
 
@@ -13,13 +14,17 @@
     <div class="conteindex" id="top">
         <header>
             <h1><a class="text">Paraíso folclórico del Huila</a></h1><!-- titular-->
-            <nav><!-- menu general-->
-                <a href="index.html" target="_self">Inicio</a>
-                <a href="paginauno.html" target="_self">Ubicación</a>
-                <a href="paginados.html" target="_self">Personas</a>
-                <a href="paginatres.html" target="_self">Actividades y Fiestas</a>
-                <a href="paginacuatro.html" target="_self">Historia</a> 
-                <a href="paginacinco.html" target="_self">Recursos</a> 
+            <input type="checkbox" id="btn-menu"><!-- checkbox permite la opción boleana -->
+            <label for="btn-menu"><img class="imgbtnmenu" src="imagenes/menu.png" ></label>
+            <nav class="menu"><!-- menu general-->
+                <ul>
+                    <li><a href="index.html" target="_self">Inicio</a></li>
+                    <li><a href="paginauno.html" target="_self">Ubicación</a></li>
+                    <li><a href="paginados.html" target="_self">Personas</a></li>
+                    <li><a href="paginatres.html" target="_self">Actividades y Fiestas</a></li>
+                    <li><a href="paginacuatro.html" target="_self">Historia</a></li>
+                    <li><a href="paginacinco.html" target="_self">Recursos</a> </li>
+                </ul>
             </nav>
             <br>
             <br>

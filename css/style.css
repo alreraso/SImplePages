@@ -1,5 +1,56 @@
 /* estilizado para pantallaz mayores a 1200 minimo */
 @media only screen and (min-width:1230px){
+    #btn-menu {
+        display: none;   /* oculta el checkbox cuando no es necesario*/
+    } 
+    header {
+        width: 100%;    
+        z-index: 10;	/* coloca el checkbox por encima del contenido*/
+    }
+    header label {     /* coloca el checkbox en un lugar y tamaño exactos*/
+        display: none;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    } 
+    header label:hover {
+        cursor: pointer;    /* cambia el cursor sobre el checkbox para indicar la interacción*/
+    }
+    .menu ul{
+        margin-left: 20px; 
+        list-style: none;     /* para evitar los bullit list en la lista*/
+        padding: 0;
+        display: flex;
+    }
+    .menu li{
+        background-repeat: no-repeat; /* evita que se repita la imagen aunque cambie el tamaño*/
+        width: 160px;
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 14px 15px;
+    } 
+    .menu li a {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+        color: white;
+        background-color: #6a396e;
+        text-decoration: none;  
+        padding: 14px 15px;
+    }
+    .menu li a:hover {
+        color:#FFFFFF;
+        text-shadow: 1px 1px #000000;
+        background-repeat: no-repeat;
+        background-color: #f662d2;
+    } 
     /* dos se utiliza para una imagen de la parroquia */
     .dos {
         width: 300px;
@@ -90,6 +141,7 @@
     /* estilo de navegado interno */
     .rutainterna{
         background-color: #a46ca9;
+        text-decoration: none;
     }
     /* estilo de banner  municipal */
     .bannermunicipal{
@@ -125,6 +177,35 @@
 
 /* para tamaños no entre 800 y 1200 px*/
 @media only screen and (min-width:810px) and (max-width:1230px){
+    #btn-menu {
+        display: none;   /* oculta el checkbox cuando no es necesario*/
+    } 
+    header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    /* elementos del menu desplegable*/
+    header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    .menu {
+        position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
+        background: rgba(0.5, 0.5, 0.5, 0.2); /* rojo, verde, azul, alpha (transparencia) */
+		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+        width: 40%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: -60%; /* se oculta porque se coloca por fuera de la ventana*/
+		margin-top: 4px;
+        transition: all 2s;   /* la animación de desplegar el menu dura 1 segundo*/
+    } 
+    .menu ul {
+        flex-direction: column;  /* se despliega en sentido vertical*/
+    } 
+    .menu li {
+        padding: 15px;
+        list-style-type: none;
+    }
+    #btn-menu:checked ~ .menu {  /* el checkbox controla las dos posiciones del menu */
+        margin: 1px; 
+    }
     .dos {
         width: 300px;
         height: 400px;
@@ -219,6 +300,7 @@
     /* estilo de navegado interno */
     .rutainterna{
         background-color: #a46ca9;
+        text-decoration: none;
     }
     /* estilo de banner  municipal */
     .bannermunicipal{
@@ -255,6 +337,35 @@
 }
 
 @media only screen and (min-width:480px) and (max-width:810px){
+    #btn-menu {
+        display: none;   /* oculta el checkbox cuando no es necesario*/
+    } 
+    header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    /* elementos del menu desplegable*/
+    header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    .menu {
+        position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
+        background: rgba(0.5, 0.5, 0.5, 0.2); /* rojo, verde, azul, alpha (transparencia) */
+		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+        width: 49%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: -60%; /* se oculta porque se coloca por fuera de la ventana*/
+		margin-top: 4px;
+        transition: all 2s;   /* la animación de desplegar el menu dura 1 segundo*/
+    } 
+    .menu ul {
+        flex-direction: column;  /* se despliega en sentido vertical*/
+    } 
+    .menu li {
+        padding: 15px;
+        list-style-type: none;
+    }
+    #btn-menu:checked ~ .menu {  /* el checkbox controla las dos posiciones del menu */
+        margin: 1px; 
+    }
     .dos {
         width: 300px;
         height: 400px;
@@ -349,6 +460,7 @@
     /* estilo de navegado interno */
     .rutainterna{
         background-color: #a46ca9;
+        text-decoration: none;
     }
     /* estilo de banner  municipal */
     .bannermunicipal{
@@ -385,6 +497,36 @@
 }
 
 @media only screen and (min-width:1px) and (max-width:480px){
+    #btn-menu {
+        display: none;   /* oculta el checkbox cuando no es necesario*/
+    } 
+    header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    /* elementos del menu desplegable*/
+    header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    .menu {
+        position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
+        background: rgba(0.5, 0.5, 0.5, 0.2); /* rojo, verde, azul, alpha (transparencia) */
+		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+        width: 55%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: -60%; /* se oculta porque se coloca por fuera de la ventana*/
+		margin-top: 4px;
+        transition: all 2s;   /* la animación de desplegar el menu dura 1 segundo*/
+    } 
+    .menu ul {
+        flex-direction: column;  /* se despliega en sentido vertical*/
+    } 
+    .menu li {
+        padding: 5px;
+        margin-left: 5px;
+        list-style-type: none;
+    }
+    #btn-menu:checked ~ .menu {  /* el checkbox controla las dos posiciones del menu */
+        margin: 1px; 
+    }
     .dos {
         width: 300px;
         height: 400px;
@@ -479,6 +621,7 @@
     /* estilo de navegado interno */
     .rutainterna{
         background-color: #a46ca9;
+        text-decoration: none;
     }
     /* estilo de banner  municipal */
     .bannermunicipal{

@@ -1,5 +1,18 @@
 /* estilizado para pantallaz mayores a 1200 minimo */
 @media only screen and (min-width:1230px){
+    .mapainteractivo{
+        width: 400px;
+        height: 379px;
+    }
+    /* evitar que el top de devolver tenga linea por debajo y cambie de color */
+    h2 a{
+        text-decoration: none;
+    }
+    /* evitar que la decoracion se haga en las lista de creditos */
+    ol li a:link{
+        text-decoration: none;
+    }
+    /* tomado del ejemplo del profesor en clase */
     #btn-menu {
         display: none;   /* oculta el checkbox cuando no es necesario*/
     } 
@@ -174,15 +187,24 @@
         color: black;
     } 
 }
-
 /* para tamaños no entre 800 y 1200 px*/
 @media only screen and (min-width:810px) and (max-width:1230px){
+    .mapainteractivo{
+        width: 400px;
+        height: 379px;
+    }
+    /* evitar que el top de devolver tenga linea por debajo y cambie de color */
+    h2 a{
+        text-decoration: none;
+    }
+    /* evitar que la decoracion se haga en las lista de creditos */
+    ol li a:link{
+        text-decoration: none;
+    }
+    /* tomado del ejemplo del profesor en clase */
     #btn-menu {
         display: none;   /* oculta el checkbox cuando no es necesario*/
-    } 
-    header label{
-        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
-    } 
+    }
     /* elementos del menu desplegable*/
     header label{
         display: block; /* se muestra el checkbox cuando se reduce la ventana*/
@@ -337,11 +359,22 @@
 }
 
 @media only screen and (min-width:480px) and (max-width:810px){
+    .mapainteractivo{
+        width: 400px;
+        height: 379px;
+    }
+    /* evitar que el top de devolver tenga linea por debajo y cambie de color */
+    h2 a{
+        text-decoration: none;
+    }
+    /* evitar que la decoracion se haga en las lista de creditos */
+    ol li a:link{
+        text-decoration: none;
+    }
+    /* tomado del ejemplo del profesor en clase */
     #btn-menu {
         display: none;   /* oculta el checkbox cuando no es necesario*/
-    } 
-    header label{
-        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+        width:30px;
     } 
     /* elementos del menu desplegable*/
     header label{
@@ -449,7 +482,10 @@
     .navinterna {
         padding-top: 30px;
         padding-bottom: 30px;
-        padding-left: 11%;
+        padding-left: 1%;
+    }
+    .navinterna nav a{
+        font-size: 9px;
     }
     /* estilo de foto panoramica */
     /* se ingresa estilo para la imagen de inicio */
@@ -497,12 +533,22 @@
 }
 
 @media only screen and (min-width:1px) and (max-width:480px){
+    .mapainteractivo{
+        width: 350px;
+        height: 379px;
+    }
+    /* evitar que el top de devolver tenga linea por debajo y cambie de color */
+    h2 a{
+        text-decoration: none;
+    }
+    /* evitar que la decoracion se haga en las lista de creditos */
+    ol li a:link{
+        text-decoration: none;
+    }
+    /* tomado del ejemplo del profesor en clase */
     #btn-menu {
         display: none;   /* oculta el checkbox cuando no es necesario*/
-    } 
-    header label{
-        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
-    } 
+    }
     /* elementos del menu desplegable*/
     header label{
         display: block; /* se muestra el checkbox cuando se reduce la ventana*/
@@ -511,8 +557,8 @@
         position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
         background: rgba(0.5, 0.5, 0.5, 0.2); /* rojo, verde, azul, alpha (transparencia) */
 		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
-        width: 55%; /* se refiere al ancho del fondo del menu y no a los botones */
-        margin-left: -60%; /* se oculta porque se coloca por fuera de la ventana*/
+        width: 65%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: -70%; /* se oculta porque se coloca por fuera de la ventana*/
 		margin-top: 4px;
         transition: all 2s;   /* la animación de desplegar el menu dura 1 segundo*/
     } 
@@ -520,7 +566,7 @@
         flex-direction: column;  /* se despliega en sentido vertical*/
     } 
     .menu li {
-        padding: 5px;
+        padding: 8px;
         margin-left: 5px;
         list-style-type: none;
     }
@@ -583,6 +629,7 @@
     .historia {
         text-align: justify;
     }
+
     /* me dfine el tamaño de la figura mapa */
     .mapa {
         width: 200px;
@@ -608,9 +655,12 @@
     }
     /* navegacion de pagina */
     .navinterna {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 11%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navinterna nav a{
+        font-size: 6px;
+        font-weight: 400;
     }
     /* estilo de foto panoramica */
     /* se ingresa estilo para la imagen de inicio */
@@ -629,7 +679,6 @@
         height: 266px;
     }
     /* banner de fotos de actividades */
-
     /* estilo de insginia con borde */
     .insignias{
         align-content: center;

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<div class="conteindex">
+    <div class="conteindex">
         <h1><a class="text">Paraíso folclórico del Huila</a></h1><!-- titular-->
         <header>
             <input type="checkbox" id="btn-menu"><!-- checkbox permite la opción boleana -->
@@ -27,19 +27,28 @@
                 </ul>
             </nav>
             <br>
-            <br>
         </header>
-        <!-- Nombre del personaje importante -->
-        <h3>Alonso Orjuela Pardo</h3>
-        <p>Fundador de la empresa Surtifruver</p>
-        <!-- imagen del personaje importante del municipio -->
-        <img class="surtifruver" src="imagenes/surtifruve.PNG" alt="Fundador surtifruver"/>
-        <br><!-- el tag br me genera un espacio hacia abajo seprando dos contenidos -->
-        <!-- se agrega tag de figura utilizada -->
-        <b>Figura 8 de Alonso Pardo</b>
-        <br><br><br><br>
+        <section>
+            <!--Título del mapa-->
+            <h1><a class="text">MAPA INTERACTIVO</a></h1>
+            <!--Mapa interactivo-->
+            <div class="mapa_UN">
+                <img class="mapalaplata" src="imagenes/mapa_laplata.PNG" alt="Mapa Universidad Nacional">
+                <!--Botones sobre mapa-->
+                <a href="#Info" target="_self"><img class="punto1" onclick="Punto1()" src="imagenes/play.png" alt="Hospital Municipal"></a>
+                <a href="#Info" target="_self"><img class="punto2" onclick="Punto2()" src="imagenes/play.png" alt="Villa Olimpica"></a>
+                <a href="#Info" target="_self"><img class="punto3" onclick="Punto3()" src="imagenes/play.png" alt="Parque la pola"></a>
+                <a href="#Info" target="_self"><img class="punto4" onclick="Punto4()" src="imagenes/play.png" alt="Parque Central"></a>
+            </div>
+            <div class="mapa_UN">
+                <!--Informacion y texto del putno del mapa-->
+                <p class="p_mapa" id="Info"><img class="imgM" src="imagenes/che.jpg" alt="infodepunto"><br><br>
+                    Mapa interactivo<br>Haz clic en alguno de los pequeños botones para ver información sobre el lugar.</p>
+            </div>
+        </section>
     </div>
 </body>
+
 <footer class="footer">
     <b>Gráfica interactiva - ALRRAMIREZSO © 2022</b>
 </footer>

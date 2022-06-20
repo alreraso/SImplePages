@@ -185,8 +185,81 @@
         text-align: center;
         background-color: #bdef52;
         color: black;
-    } 
+    }
+    /*Estilo para el div en el que está contenido el mapa interactivo*/
+    .mapa_UN {
+        position:relative; 
+        font-size:1.15em;
+        color:#000000;
+        background-color:#E4D2E1;
+        border: 3px solid #E4D2E1;
+        box-shadow:2px 2px 5px black;
+        width: 90%;
+        padding: 1%;
+        margin:auto;
+        margin-bottom:15px;
+        display:block;
+    }
+    /* Estilo de imagen mapa interactivo de la plata */
+    .mapalaplata {
+        width: 99%;
+        display: block;
+        margin: auto;
+    }
+
+    /*Estilos para cada uno de los puntos en el mapa interactivo*/
+    /* Hospital Padua */
+    .punto1 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:59%;
+        left:75%;
+    }
+    /* Villa olimpica */
+    .punto2 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:66%;
+        left:88%;
+    }
+    /* Parque la pola */
+    .punto3 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:37%;
+        left:61%;
+    }
+    /* Parque Garcia Rovira */
+    .punto4 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:32%;
+        left:50%;
+    }
+    /*Estilo para los párrafos*/
+    .p_mapa {
+        font-size:1.2em;
+        color:#000000;
+        background-color:#E4D2E1;
+        width: 90%;
+        margin: auto;
+        padding: 1%;
+        display:block;
+    }
+    /*Estilo para la imagen en el párrafo de información sobre el mapa interactivo*/
+    .imgM {
+        max-width: 20%;
+        float:right;
+        margin:2%;
+        border: 1px solid #FFFFFF;
+        box-shadow:1px 1px 4px black;
+    }
 }
+
 /* para tamaños no entre 800 y 1200 px*/
 @media only screen and (min-width:810px) and (max-width:1230px){
     .mapainteractivo{
@@ -355,6 +428,78 @@
         text-align: center;
         background-color: #bdef52;
         color: black;
+    }
+    /*Estilo para el div en el que está contenido el mapa interactivo*/
+    .mapa_UN {
+        position:relative; 
+        font-size:1.15em;
+        color:#000000;
+        background-color:#E4D2E1;
+        border: 3px solid #E4D2E1;
+        box-shadow:2px 2px 5px black;
+        width: 90%;
+        padding: 1%;
+        margin:auto;
+        margin-bottom:15px;
+        display:block;
+    }
+    /* Estilo de imagen mapa interactivo de la plata */
+    .mapalaplata {
+        width: 99%;
+        display: block;
+        margin: auto;
+    }
+
+    /*Estilos para cada uno de los puntos en el mapa interactivo*/
+    /* Hospital Padua */
+    .punto1 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:59%;
+        left:75%;
+    }
+    /* Villa olimpica */
+    .punto2 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:66%;
+        left:88%;
+    }
+    /* Parque la pola */
+    .punto3 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:37%;
+        left:61%;
+    }
+    /* Parque Garcia Rovira */
+    .punto4 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:32%;
+        left:50%;
+    }
+    /*Estilo para los párrafos*/
+    .p_mapa {
+        font-size:1.2em;
+        color:#000000;
+        background-color:#E4D2E1;
+        width: 90%;
+        margin: auto;
+        padding: 1%;
+        display:block;
+    }
+    /*Estilo para la imagen en el párrafo de información sobre el mapa interactivo*/
+    .imgM {
+        max-width: 20%;
+        float:right;
+        margin:2%;
+        border: 1px solid #FFFFFF;
+        box-shadow:1px 1px 4px black;
     }
 }
 
@@ -530,6 +675,78 @@
         background-color: #bdef52;
         color: black;
     }
+    /*Estilo para el div en el que está contenido el mapa interactivo*/
+    .mapa_UN {
+        position:relative; 
+        font-size:1.15em;
+        color:#000000;
+        background-color:#E4D2E1;
+        border: 3px solid #E4D2E1;
+        box-shadow:2px 2px 5px black;
+        width: 90%;
+        padding: 1%;
+        margin:auto;
+        margin-bottom:15px;
+        display:block;
+    }
+    /* Estilo de imagen mapa interactivo de la plata */
+    .mapalaplata {
+        width: 99%;
+        display: block;
+        margin: auto;
+    }
+
+    /*Estilos para cada uno de los puntos en el mapa interactivo*/
+    /* Hospital Padua */
+    .punto1 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:59%;
+        left:75%;
+    }
+    /* Villa olimpica */
+    .punto2 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:66%;
+        left:88%;
+    }
+    /* Parque la pola */
+    .punto3 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:37%;
+        left:61%;
+    }
+    /* Parque Garcia Rovira */
+    .punto4 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:32%;
+        left:50%;
+    }
+    /*Estilo para los párrafos*/
+    .p_mapa {
+        font-size:1.2em;
+        color:#000000;
+        background-color:#E4D2E1;
+        width: 90%;
+        margin: auto;
+        padding: 1%;
+        display:block;
+    }
+    /*Estilo para la imagen en el párrafo de información sobre el mapa interactivo*/
+    .imgM {
+        max-width: 20%;
+        float:right;
+        margin:2%;
+        border: 1px solid #FFFFFF;
+        box-shadow:1px 1px 4px black;
+    }
 }
 
 @media only screen and (min-width:1px) and (max-width:480px){
@@ -703,5 +920,77 @@
         text-align: center;
         background-color: #bdef52;
         color: black;
+    }
+    /*Estilo para el div en el que está contenido el mapa interactivo*/
+    .mapa_UN {
+        position:relative; 
+        font-size:1.15em;
+        color:#000000;
+        background-color:#E4D2E1;
+        border: 3px solid #E4D2E1;
+        box-shadow:2px 2px 5px black;
+        width: 90%;
+        padding: 1%;
+        margin:auto;
+        margin-bottom:15px;
+        display:block;
+    }
+    /* Estilo de imagen mapa interactivo de la plata */
+    .mapalaplata {
+        width: 99%;
+        display: block;
+        margin: auto;
+    }
+
+    /*Estilos para cada uno de los puntos en el mapa interactivo*/
+    /* Hospital Padua */
+    .punto1 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:59%;
+        left:75%;
+    }
+    /* Villa olimpica */
+    .punto2 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:66%;
+        left:88%;
+    }
+    /* Parque la pola */
+    .punto3 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:37%;
+        left:61%;
+    }
+    /* Parque Garcia Rovira */
+    .punto4 {
+        position:absolute;
+        z-index:2;
+        width:4%;
+        bottom:32%;
+        left:50%;
+    }
+    /*Estilo para los párrafos*/
+    .p_mapa {
+        font-size:1.2em;
+        color:#000000;
+        background-color:#E4D2E1;
+        width: 90%;
+        margin: auto;
+        padding: 1%;
+        display:block;
+    }
+    /*Estilo para la imagen en el párrafo de información sobre el mapa interactivo*/
+    .imgM {
+        max-width: 20%;
+        float:right;
+        margin:2%;
+        border: 1px solid #FFFFFF;
+        box-shadow:1px 1px 4px black;
     }
 }

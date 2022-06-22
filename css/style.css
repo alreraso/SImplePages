@@ -252,7 +252,7 @@
     }
     /*Estilo para la imagen en el párrafo de información sobre el mapa interactivo*/
     .imgM {
-        max-width: 20%;
+        max-width: 25%;
         float:right;
         margin:2%;
         border: 1px solid #FFFFFF;
